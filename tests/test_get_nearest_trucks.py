@@ -1,5 +1,5 @@
 import pytest
-from script.get_nearest_trunks import get_nearest_trucks
+from script.get_nearest_trucks import get_nearest_trucks
 
 trucks = [
   dict(Applicant=f"App{i}", Address=f"Addr{i}", FacilityType="Truck", Latitude=f"{i}.0", Longitude=f"-{i}.0")
